@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gcrapp.test</groupId>
+  <artifactId>com.gcrapp.selenium</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ 
+  <properties>
+  	<selenium.version>3.5.3</selenium.version>
+  	<testng.version>6.8.21</testng.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <log4j.version>1.2.17</log4j.version>
+  </properties>
+
+  <dependencies>
+  	<!-- selenium -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.version}</version> 
+    </dependency>
+    
+    <!-- testng -->
+    <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>${testng.version}</version>
+    <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>${log4j.version}</version>
+	</dependency>
+  </dependencies>
+</project>
