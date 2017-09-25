@@ -12,10 +12,6 @@ public class AppLogger {
 
 	public AppLogger(final Class<?> clazz) {
 		logger = Logger.getLogger(clazz);
-		
-		
-		
-		
 	}
 	
 	/*public static AppLogger getLogger(Class<?> clazz) {
