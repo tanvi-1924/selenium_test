@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.gcrapp.selenium.framework.DriverProvider;
-import com.gcrapp.selenium.framework.utils.Screenshot;
+import com.gcrapp.selenium.framework.utils.ScreenshotUtil;
 import com.gcrapp.selenium.tests.utils.AppLogger;
 
 public class LoginTest {
@@ -60,14 +60,14 @@ public class LoginTest {
 			System.out.println("----------------------RESULT-----------------"
 					+ iTestResult.getStatus());
 			try {
-				Screenshot.captureScreenshot(driver, methodName, "FAILURE");
+				ScreenshotUtil.captureScreenshot(driver, methodName, "FAILURE");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		} else
 			try {
-				Screenshot.captureScreenshot(driver, methodName, "SUCCESS");
+				ScreenshotUtil.captureScreenshot(driver, methodName, "SUCCESS");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
