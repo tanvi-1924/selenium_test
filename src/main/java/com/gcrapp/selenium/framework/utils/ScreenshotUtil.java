@@ -17,6 +17,6 @@ public static final String SCREENSHOT_LOCATION = ConfigReaderWriter.getProperty(
 public static void captureScreenshot(WebDriver driver, String methodName, String testOutcome) throws IOException{
 	
 File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-FileUtils.copyFile(srcFile, new File(SCREENSHOT_LOCATION + File.separator + "scr.png"));
+FileUtils.copyFile(srcFile, new File(SCREENSHOT_LOCATION + File.separator + methodName + "_"+ testOutcome + "_" + System.currentTimeMillis() + ".png"));
 }
 }

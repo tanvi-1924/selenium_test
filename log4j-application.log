@@ -25510,3 +25510,553 @@
 2017-09-27 17:32:29 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-11: Close connection
 2017-09-27 17:32:29 DEBUG MainClientExec:104 - Connection discarded
 2017-09-27 17:32:29 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 11][route: {}->http://localhost:20455][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:05 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:05 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:05 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:05 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:05 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:05 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:05 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55868<->127.0.0.1:22397
+2017-09-28 00:33:05 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2017-09-28 00:33:05 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2017-09-28 00:33:05 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:05 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:05 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2017-09-28 00:33:05 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:05 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 456
+2017-09-28 00:33:05 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:22397
+2017-09-28 00:33:05 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2017-09-28 00:33:05 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:05 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 456[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    "moz:firefoxOptions": {[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "      "prefs": {},[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "      "args": [][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    }[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "      "moz:firefoxOptions": {[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "        "prefs": {},[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "        "args": [][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "        "moz:firefoxOptions": {[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "          "prefs": {},[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "          "args": [][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "        }[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2017-09-28 00:33:05 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2017-09-28 00:33:05 DEBUG wire:87 - http-outgoing-0 >> "}"
+2017-09-28 00:33:09 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:09 DEBUG wire:73 - http-outgoing-0 << "Connection: close[\r][\n]"
+2017-09-28 00:33:09 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:09 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:09 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 477[\r][\n]"
+2017-09-28 00:33:09 DEBUG wire:73 - http-outgoing-0 << "Date: Wed, 27 Sep 2017 19:03:09 GMT[\r][\n]"
+2017-09-28 00:33:09 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-09-28 00:33:09 DEBUG wire:87 - http-outgoing-0 << "{"value": {"sessionId":"2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"55.0.3","moz:accessibilityChecks":false,"moz:processID":3788,"moz:profile":"C:\\Users\\Tanvi\\AppData\\Local\\Temp\\rust_mozprofile.iJqYocBwNyrA","pageLoadStrategy":"normal","platformName":"windows_nt","platformVersion":"10.0","rotatable":false,"specificationLevel":0,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000}}}}"
+2017-09-28 00:33:09 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2017-09-28 00:33:09 DEBUG headers:125 - http-outgoing-0 << Connection: close
+2017-09-28 00:33:09 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:09 DEBUG headers:125 - http-outgoing-0 << Cache-Control: no-cache
+2017-09-28 00:33:09 DEBUG headers:125 - http-outgoing-0 << Content-Length: 477
+2017-09-28 00:33:09 DEBUG headers:125 - http-outgoing-0 << Date: Wed, 27 Sep 2017 19:03:09 GMT
+2017-09-28 00:33:09 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2017-09-28 00:33:09 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:09 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:09 DEBUG LoginTest:30 - openBrowser - Enter
+2017-09-28 00:33:10 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:10 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:10 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:10 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 1][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:10 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:10 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:10 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55888<->127.0.0.1:22397
+2017-09-28 00:33:10 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 10800000
+2017-09-28 00:33:10 DEBUG MainClientExec:256 - Executing request POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/url HTTP/1.1
+2017-09-28 00:33:10 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:10 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:10 DEBUG headers:133 - http-outgoing-1 >> POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/url HTTP/1.1
+2017-09-28 00:33:10 DEBUG headers:136 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:10 DEBUG headers:136 - http-outgoing-1 >> Content-Length: 53
+2017-09-28 00:33:10 DEBUG headers:136 - http-outgoing-1 >> Host: localhost:22397
+2017-09-28 00:33:10 DEBUG headers:136 - http-outgoing-1 >> Connection: Keep-Alive
+2017-09-28 00:33:10 DEBUG headers:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:10 DEBUG headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/url HTTP/1.1[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "Content-Length: 53[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:73 - http-outgoing-1 >> "[\r][\n]"
+2017-09-28 00:33:10 DEBUG wire:87 - http-outgoing-1 >> "{"url":"http://www.gcrit.com/build3/admin/login.php"}"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-1 << "Connection: close[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-1 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-1 << "Content-Length: 13[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-1 << "Date: Wed, 27 Sep 2017 19:03:14 GMT[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-1 << "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-1 << "{"value": {}}"
+2017-09-28 00:33:14 DEBUG headers:122 - http-outgoing-1 << HTTP/1.1 200 OK
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-1 << Connection: close
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-1 << Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-1 << Content-Length: 13
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-1 << Date: Wed, 27 Sep 2017 19:03:14 GMT
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2017-09-28 00:33:14 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG LoginTest:30 - openBrowser - Exit
+2017-09-28 00:33:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 2][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:14 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55909<->127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-2: set socket timeout to 10800000
+2017-09-28 00:33:14 DEBUG MainClientExec:256 - Executing request GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/screenshot HTTP/1.1
+2017-09-28 00:33:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG headers:133 - http-outgoing-2 >> GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/screenshot HTTP/1.1
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-2 >> Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-2 >> Host: localhost:22397
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-2 >> Connection: Keep-Alive
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 >> "GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/screenshot HTTP/1.1[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 >> "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 >> "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 << "Connection: close[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 << "Content-Length: 13492[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 << "Date: Wed, 27 Sep 2017 19:03:14 GMT[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-2 << "[\r][\n]"
+2017-09-28 00:33:14 DEBUG headers:122 - http-outgoing-2 << HTTP/1.1 200 OK
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-2 << Connection: close
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-2 << Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-2 << Content-Length: 13492
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-2 << Date: Wed, 27 Sep 2017 19:03:14 GMT
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-2 << "{"value":"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"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-2 << "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"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-2 << "1n0JMkSVpSXUew13/5du2Y13nQe/eL9Pj5t+mPb/4u/ezNv6Svnj9Jf3236p//NT/ozfxc/s8GPUmSpL4y6EmSJC2py4x5b/z2D5VjXuf30Pvo25mr6/74j9JwV/f1me//Kf31LB//DHqSJEl9ZdCTJElaUtcx5v3i3Q+af96gJ0mStPYZ9CRJkpZU2/GrPOb9/K176fVfvt3u52/iJbcGPUmSpJXKoCdJkrSkugx6C19a2zTo5R9gUfogi+KHYnz1UenqvYsPxfjKFXqSJEkrn0FPkiRpSXUd9N747R86D2dX6/KDnUFPkiRpeRn0JEmSltRyx7m2nb/MNr9y7/HkTzfye/o+95IkSeuUQU+SJGlJ9T/e9Vff516SJGmdMuhJkiQtqb5HNYOeJEnSemTQkyRJWlKv3/l978NaH72291bv516SJGmdMuhJkiQtqd3fvNP7uNZHb4z3ez/3kiRJ65RBT5IkaUl9+PGk93Gtj/77fz/u/dxLkiStUwY9SZKkZXX2JP36v/6n94Ftmf3H2++l47MVOPeSJElrlEFPkiRpWZ2d95e/f5HeGO/3PrbdVK/tvZXeGO+fX5l38Zh7P/eSJElrlEFPkiRpWZ29xPV97iVJktYog54kSZIkSZIUqIWDHgAAAACwugx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBANDZD40AAAc4SURBVAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAAB"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-2 << "CIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAI5P8BpHjYmeHEyTMAAAAASUVORK5CYII="}"
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+2017-09-28 00:33:14 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 2][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG LoginTest:30 - verifyLogin - Enter
+2017-09-28 00:33:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 3][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:14 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55910<->127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-3: set socket timeout to 10800000
+2017-09-28 00:33:14 DEBUG MainClientExec:256 - Executing request POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1
+2017-09-28 00:33:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG headers:133 - http-outgoing-3 >> POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-3 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-3 >> Content-Length: 53
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-3 >> Host: localhost:22397
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-3 >> Connection: Keep-Alive
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "Content-Length: 53[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 >> "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-3 >> "{"value":"*[name='username']","using":"css selector"}"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 << "Connection: close[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 << "Content-Length: 88[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 << "Date: Wed, 27 Sep 2017 19:03:14 GMT[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-3 << "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-3 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"f881daf2-e47c-4c6d-b050-fd0858737c28"}}"
+2017-09-28 00:33:14 DEBUG headers:122 - http-outgoing-3 << HTTP/1.1 200 OK
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-3 << Connection: close
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-3 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-3 << Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-3 << Content-Length: 88
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-3 << Date: Wed, 27 Sep 2017 19:03:14 GMT
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-3: Close connection
+2017-09-28 00:33:14 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 3][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 4][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:14 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55911<->127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-4: set socket timeout to 10800000
+2017-09-28 00:33:14 DEBUG MainClientExec:256 - Executing request POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/f881daf2-e47c-4c6d-b050-fd0858737c28/value HTTP/1.1
+2017-09-28 00:33:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG headers:133 - http-outgoing-4 >> POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/f881daf2-e47c-4c6d-b050-fd0858737c28/value HTTP/1.1
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-4 >> Content-Length: 90
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-4 >> Host: localhost:22397
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-4 >> Connection: Keep-Alive
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/f881daf2-e47c-4c6d-b050-fd0858737c28/value HTTP/1.1[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "Content-Length: 90[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 >> "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-4 >> "{"id":"f881daf2-e47c-4c6d-b050-fd0858737c28","text":"admin","value":["a","d","m","i","n"]}"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 << "Connection: close[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 << "Content-Length: 13[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 << "Date: Wed, 27 Sep 2017 19:03:14 GMT[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-4 << "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-4 << "{"value": {}}"
+2017-09-28 00:33:14 DEBUG headers:122 - http-outgoing-4 << HTTP/1.1 200 OK
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-4 << Connection: close
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-4 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-4 << Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-4 << Content-Length: 13
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-4 << Date: Wed, 27 Sep 2017 19:03:14 GMT
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-4: Close connection
+2017-09-28 00:33:14 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 4][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 5][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:14 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55912<->127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-5: set socket timeout to 10800000
+2017-09-28 00:33:14 DEBUG MainClientExec:256 - Executing request POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1
+2017-09-28 00:33:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG headers:133 - http-outgoing-5 >> POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-5 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-5 >> Content-Length: 53
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-5 >> Host: localhost:22397
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-5 >> Connection: Keep-Alive
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "Content-Length: 53[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 >> "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-5 >> "{"value":"*[name='password']","using":"css selector"}"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 << "Connection: close[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 << "Content-Length: 88[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 << "Date: Wed, 27 Sep 2017 19:03:14 GMT[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-5 << "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-5 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"e4116fb4-b426-4c65-b3e4-fb6d70e06bdb"}}"
+2017-09-28 00:33:14 DEBUG headers:122 - http-outgoing-5 << HTTP/1.1 200 OK
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-5 << Connection: close
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-5 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-5 << Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-5 << Content-Length: 88
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-5 << Date: Wed, 27 Sep 2017 19:03:14 GMT
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-5: Close connection
+2017-09-28 00:33:14 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 5][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 6][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:14 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55913<->127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-6: set socket timeout to 10800000
+2017-09-28 00:33:14 DEBUG MainClientExec:256 - Executing request POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/e4116fb4-b426-4c65-b3e4-fb6d70e06bdb/value HTTP/1.1
+2017-09-28 00:33:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG headers:133 - http-outgoing-6 >> POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/e4116fb4-b426-4c65-b3e4-fb6d70e06bdb/value HTTP/1.1
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-6 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-6 >> Content-Length: 115
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-6 >> Host: localhost:22397
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-6 >> Connection: Keep-Alive
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/e4116fb4-b426-4c65-b3e4-fb6d70e06bdb/value HTTP/1.1[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "Content-Length: 115[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 >> "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-6 >> "{"id":"e4116fb4-b426-4c65-b3e4-fb6d70e06bdb","text":"admin@1234","value":["a","d","m","i","n","@","1","2","3","4"]}"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 << "Connection: close[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 << "Content-Length: 13[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 << "Date: Wed, 27 Sep 2017 19:03:14 GMT[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-6 << "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-6 << "{"value": {}}"
+2017-09-28 00:33:14 DEBUG headers:122 - http-outgoing-6 << HTTP/1.1 200 OK
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-6 << Connection: close
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-6 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-6 << Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-6 << Content-Length: 13
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-6 << Date: Wed, 27 Sep 2017 19:03:14 GMT
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-6: Close connection
+2017-09-28 00:33:14 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 6][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 7][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:14 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55914<->127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-7: set socket timeout to 10800000
+2017-09-28 00:33:14 DEBUG MainClientExec:256 - Executing request POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1
+2017-09-28 00:33:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG headers:133 - http-outgoing-7 >> POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-7 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-7 >> Content-Length: 44
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-7 >> Host: localhost:22397
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-7 >> Connection: Keep-Alive
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element HTTP/1.1[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "Content-Length: 44[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 >> "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-7 >> "{"value":".//*[@id='tdb1']","using":"xpath"}"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 << "Connection: close[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 << "Content-Length: 88[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 << "Date: Wed, 27 Sep 2017 19:03:14 GMT[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-7 << "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-7 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"9052132d-6f4e-4bba-82d9-5fb16980ac82"}}"
+2017-09-28 00:33:14 DEBUG headers:122 - http-outgoing-7 << HTTP/1.1 200 OK
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-7 << Connection: close
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-7 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-7 << Cache-Control: no-cache
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-7 << Content-Length: 88
+2017-09-28 00:33:14 DEBUG headers:125 - http-outgoing-7 << Date: Wed, 27 Sep 2017 19:03:14 GMT
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-7: Close connection
+2017-09-28 00:33:14 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 7][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 8][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:14 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55915<->127.0.0.1:22397
+2017-09-28 00:33:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-8: set socket timeout to 10800000
+2017-09-28 00:33:14 DEBUG MainClientExec:256 - Executing request POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/9052132d-6f4e-4bba-82d9-5fb16980ac82/click HTTP/1.1
+2017-09-28 00:33:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:14 DEBUG headers:133 - http-outgoing-8 >> POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/9052132d-6f4e-4bba-82d9-5fb16980ac82/click HTTP/1.1
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-8 >> Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-8 >> Content-Length: 45
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-8 >> Host: localhost:22397
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-8 >> Connection: Keep-Alive
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-8 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:14 DEBUG headers:136 - http-outgoing-8 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "POST /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/element/9052132d-6f4e-4bba-82d9-5fb16980ac82/click HTTP/1.1[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "Content-Length: 45[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:73 - http-outgoing-8 >> "[\r][\n]"
+2017-09-28 00:33:14 DEBUG wire:87 - http-outgoing-8 >> "{"id":"9052132d-6f4e-4bba-82d9-5fb16980ac82"}"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-8 << "Connection: close[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-8 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-8 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-8 << "Content-Length: 13[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-8 << "Date: Wed, 27 Sep 2017 19:03:15 GMT[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-8 << "[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:87 - http-outgoing-8 << "{"value": {}}"
+2017-09-28 00:33:15 DEBUG headers:122 - http-outgoing-8 << HTTP/1.1 200 OK
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-8 << Connection: close
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-8 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-8 << Cache-Control: no-cache
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-8 << Content-Length: 13
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-8 << Date: Wed, 27 Sep 2017 19:03:15 GMT
+2017-09-28 00:33:15 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-8: Close connection
+2017-09-28 00:33:15 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 8][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:15 DEBUG LoginTest:30 - verifyLogin - Exit
+2017-09-28 00:33:15 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:15 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 9][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:15 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:15 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:15 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55916<->127.0.0.1:22397
+2017-09-28 00:33:15 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-9: set socket timeout to 10800000
+2017-09-28 00:33:15 DEBUG MainClientExec:256 - Executing request GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/url HTTP/1.1
+2017-09-28 00:33:15 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:15 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:15 DEBUG headers:133 - http-outgoing-9 >> GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/url HTTP/1.1
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-9 >> Cache-Control: no-cache
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-9 >> Host: localhost:22397
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-9 >> Connection: Keep-Alive
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-9 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-9 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 >> "GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/url HTTP/1.1[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 >> "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 >> "[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 << "Connection: close[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 << "Content-Length: 70[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 << "Date: Wed, 27 Sep 2017 19:03:15 GMT[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-9 << "[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:87 - http-outgoing-9 << "{"value":"http://www.gcrit.com/build3/admin/login.php?action=process"}"
+2017-09-28 00:33:15 DEBUG headers:122 - http-outgoing-9 << HTTP/1.1 200 OK
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-9 << Connection: close
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-9 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-9 << Cache-Control: no-cache
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-9 << Content-Length: 70
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-9 << Date: Wed, 27 Sep 2017 19:03:15 GMT
+2017-09-28 00:33:15 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-9: Close connection
+2017-09-28 00:33:15 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 9][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:15 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:15 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 10][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:15 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:15 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:15 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55917<->127.0.0.1:22397
+2017-09-28 00:33:15 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-10: set socket timeout to 10800000
+2017-09-28 00:33:15 DEBUG MainClientExec:256 - Executing request GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/screenshot HTTP/1.1
+2017-09-28 00:33:15 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:15 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:15 DEBUG headers:133 - http-outgoing-10 >> GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/screenshot HTTP/1.1
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-10 >> Cache-Control: no-cache
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-10 >> Host: localhost:22397
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-10 >> Connection: Keep-Alive
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-10 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-10 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 >> "GET /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/screenshot HTTP/1.1[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 >> "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 >> "[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 << "Connection: close[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 << "Content-Length: 15132[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 << "Date: Wed, 27 Sep 2017 19:03:15 GMT[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-10 << "[\r][\n]"
+2017-09-28 00:33:15 DEBUG headers:122 - http-outgoing-10 << HTTP/1.1 200 OK
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-10 << Connection: close
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-10 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-10 << Cache-Control: no-cache
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-10 << Content-Length: 15132
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-10 << Date: Wed, 27 Sep 2017 19:03:15 GMT
+2017-09-28 00:33:15 DEBUG wire:87 - http-outgoing-10 << "{"value":"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"
+2017-09-28 00:33:15 DEBUG wire:87 - http-outgoing-10 << "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"
+2017-09-28 00:33:15 DEBUG wire:87 - http-outgoing-10 << "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"
+2017-09-28 00:33:15 DEBUG wire:87 - http-outgoing-10 << "EPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAcAAAAAgRj0AAAAACAQgx4AAAAABGLQAwAAAIBADHoAAAAAEIhBDwAAAAACMegBAAAAQCAGPQAAAAAIxKAHAAAAAIEY9AAAAAAgEIMeAAAAAARi0AMAAACAQAx6AAAAABCIQQ8AAAAAAjHoAQAAAEAgBj0AAAAACMSgBwAAAACBGPQAAAAAIBCDHgAAAAAEYtADAAAAgEAMegAAAAAQiEEPAAAAAAIx6AEAAABAIAY9AAAAAAjEoAf8/3bsgAQAAABA0P/X7Qh0hgAAAMCI0AMAAACAEaEHAAAAACNCDwAAAABGhB4AAAAAjAg9AAAAABgRegAAAAAwIvQAAAAAYCSmGmdX0swP4AAAAABJRU5ErkJggg=="}"
+2017-09-28 00:33:15 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-10: Close connection
+2017-09-28 00:33:15 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 10][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:15 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-09-28 00:33:15 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 11][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-09-28 00:33:15 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:22397
+2017-09-28 00:33:15 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:22397
+2017-09-28 00:33:15 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:55918<->127.0.0.1:22397
+2017-09-28 00:33:15 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-11: set socket timeout to 10800000
+2017-09-28 00:33:15 DEBUG MainClientExec:256 - Executing request DELETE /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/window HTTP/1.1
+2017-09-28 00:33:15 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-09-28 00:33:15 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-09-28 00:33:15 DEBUG headers:133 - http-outgoing-11 >> DELETE /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/window HTTP/1.1
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-11 >> Host: localhost:22397
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-11 >> Connection: Keep-Alive
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-11 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-09-28 00:33:15 DEBUG headers:136 - http-outgoing-11 >> Accept-Encoding: gzip,deflate
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 >> "DELETE /session/2b868e4d-4258-4bf8-a32c-4fe6d9acd8a7/window HTTP/1.1[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 >> "Host: localhost:22397[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 >> "Connection: Keep-Alive[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 >> "[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 << "HTTP/1.1 200 OK[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 << "Connection: close[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 << "Cache-Control: no-cache[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 << "Content-Length: 13[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 << "Date: Wed, 27 Sep 2017 19:03:15 GMT[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:73 - http-outgoing-11 << "[\r][\n]"
+2017-09-28 00:33:15 DEBUG wire:87 - http-outgoing-11 << "{"value": []}"
+2017-09-28 00:33:15 DEBUG headers:122 - http-outgoing-11 << HTTP/1.1 200 OK
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-11 << Connection: close
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-11 << Content-Type: application/json; charset=utf-8
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-11 << Cache-Control: no-cache
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-11 << Content-Length: 13
+2017-09-28 00:33:15 DEBUG headers:125 - http-outgoing-11 << Date: Wed, 27 Sep 2017 19:03:15 GMT
+2017-09-28 00:33:15 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-11: Close connection
+2017-09-28 00:33:15 DEBUG MainClientExec:104 - Connection discarded
+2017-09-28 00:33:15 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 11][route: {}->http://localhost:22397][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
