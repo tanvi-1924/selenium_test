@@ -1,5 +1,7 @@
 package com.gcrapp.selenium.framework;
 
+import java.io.File;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -10,9 +12,9 @@ public class DriverProvider {
 	
 	public static WebDriver createFirefoxDriver(){
 		WebDriver driver;
-//		System.setProperty("webdriver.gecko.driver", GECKO_DRIVER_LOCATION+GECKO_DRIVER_FILE_NAME);
 		
-		System.setProperty("webdriver.gecko.driver","C:/Users/Tanvi/Downloads/geckodriver-v0.17.0-win64/geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver","C:/Users/Tanvi/Downloads/geckodriver-v0.17.0-win64/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver",GECKO_DRIVER_LOCATION + File.separator + GECKO_DRIVER_FILE_NAME);
 		driver=new FirefoxDriver();
 		return driver;
 	}

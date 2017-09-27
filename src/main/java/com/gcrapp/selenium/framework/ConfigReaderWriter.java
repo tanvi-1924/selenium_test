@@ -70,8 +70,7 @@ public class ConfigReaderWriter {
 	
 	public static String getProperty(String key){
 		//loadConfig();
-		properties.get(key);
-		return key;
+		return (String) properties.get(key);
 	}
 }
 
