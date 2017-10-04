@@ -3,7 +3,6 @@ package com.gcrapp.selenium.tests;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -13,6 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.gcrapp.selenium.automation.businessflows.LoginFlow;
 import com.gcrapp.selenium.framework.DriverProvider;
 import com.gcrapp.selenium.framework.utils.ScreenshotUtil;
 import com.gcrapp.selenium.tests.utils.AppLogger;
@@ -45,11 +45,7 @@ public class LoginTest {
 
 	@Test(dependsOnMethods = { "openBrowser" })
 	public void verifyLogin() {
-		logger.debug("verifyLogin - Enter");
-		driver.findElement(By.name("username")).sendKeys("admin");
-		driver.findElement(By.name("password")).sendKeys("admin@1234");
-		driver.findElement(By.xpath(".//*[@id='tdb1']")).click();
-		logger.debug("verifyLogin - Exit");
+		LoginFlow.login(driver, "admin", "admin@123");
 		Assert.assertEquals(driver.getCurrentUrl(),
 				"http://www.gcrit.com/build3/admin/index.php");
 	}
