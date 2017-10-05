@@ -49,7 +49,7 @@ public class ConfigReaderWriter {
 
 	static{
 		loadConfig();
-	}
+	}  
 
 	private ConfigReaderWriter(){
 		//Not needed because you are not initializing the class and directly accessing getProperty.
